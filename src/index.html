@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta description="" />
+    <meta description="Celmo - We are Creative Professionals" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Bootstrap Basics</title>
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <title>Celmo.</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/debug.css"> -->
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-light navbar-expand-lg bg-light ">
-        <a href="#" class="navbar-brand">celmo.</a>
+      <nav class="navbar navbar-light navbar-expand-lg mt-4 ">
+        <a href="#" class="navbar-brand" style="font-weight: 700; font-size: 30px">
+          celmo.
+        </a>
         <button
           class="navbar-toggler navbar"
           type="button"
@@ -22,16 +26,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a href="#" class="nav-link">about us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a href="#" class="nav-link">services</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a href="#" class="nav-link">works</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-2">
               <a href="#" class="nav-link">blog</a>
             </li>
             <li class="nav-item">
@@ -42,27 +46,7 @@
       </nav>
     </div>
     <div class="container">
-      <!-- <header class="jumbotron text-center" style="padding:8rem 0; background: #ffe1bd; margin-top: 3rem;">
-        <div class="d-flex justify-content-between p-4">
-          <div></div>
-          <div class="">
-            <h1>
-              we are celmo.
-            </h1>
-            <div class="ml-auto mr-auto" style="width: 55px; border-bottom: 2px solid #000;"></div>
-            <p class="mt-3">professionals
-              <br> in the creative industries </p>
-            <span class="badge badge-pill badge-dark pl-4 pr-4 pt-2 pb-2">get in touch</span>
-          </div>
-          <div class="d-flex flex-lg-column justify-content-center align-self-center">
-            <div class="dot dot-fill"></div>
-            <div class="dot dot-stroke-black"></div>
-            <div class="dot dot-stroke-black"></div>
-          </div>
-        </div>
-      </header> -->
-
-      <header class="jumbotron text-center" style="padding:8rem 0; background: #ffe1bd; margin-top: 3rem;">
+      <header class="jumbotron text-center mb-5" style="padding:8rem 0; background: #ffe1bd; margin-top: 3rem;">
           <div class="row">
             <div class="col-12 col-lg-11">
               <h1>
@@ -71,7 +55,7 @@
               <div class="ml-auto mr-auto" style="width: 55px; border-bottom: 2px solid #000;"></div>
               <p class="mt-3">professionals
                 <br> in the creative industries </p>
-              <span class="badge badge-pill badge-dark pl-4 pr-4 pt-2 pb-2">get in touch</span>
+              <span class="git-btn badge badge-pill badge-dark">get in touch</span>
             </div>
             <div class="col-12 col-lg-1 d-flex justify-content-center flex-lg-column">
               <div class="dot dot-fill"></div>
@@ -82,34 +66,14 @@
         </header>
   </div>
 
-    <main>
+    <main class="home-page">
       <section class="container">
-        <!-- <div class="row align-items-center">
-          <div class="col-lg-6 p-md-5">
-            <img
-              class="img-fluid"
-              src="https://picsum.photos/g/560?image=1079"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-6 p-md-5">
-            <h2>creative <span class="d-block h1-sm">kitchen</span></h2>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Asperiores vero maiores magni! Magnam error consequuntur
-              aspernatur, totam placeat impedit veritatis nulla necessitatibus
-              corrupti, facere praesentium sed natus voluptates officia eveniet.
-            </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Asperiores vero maiores magni! Magnam error consequuntur
-              aspernatur, totam placeat impedit veritatis nulla necessitatibus
-              corrupti, facere praesentium sed natus voluptates officia eveniet.
-            </p>
-          </div>
-        </div>
-      </section> -->
-        <h2 class="text-center" style="color: #333333">what we do?</h2>
+        <h2 
+          class="text-center" 
+          style="color: #333333; font-weight: 300; font-size: 60px; font-weight: 100"
+        >
+          what we do?
+        </h2>
         <section class="container align-items-center" style="margin-top: 5rem">
           <div class="row">
             <div class="col-md-6 p-md-5">
@@ -120,20 +84,20 @@
               />
             </div>
             <div class="col-md-6 p-md-5">
-              <h2>creative <span class="d-block h1-sm">kitchen</span></h2>
-              <div style="width: 55px; border-bottom: 2px solid #000;"></div>
+              <h2 style="font-weight: 400">
+                creative 
+                <span class="d-block h1-sm" style="font-weight: 700; font-size: 48px; ">
+                  kitchen
+                </span>
+              </h2>
+              <div class="mb-3" style="width: 55px; border-bottom: 2px solid #000;"></div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem molestiae eum ut in tempore earum, eligendi
-                delectus? Voluptas eaque necessitatibus laboriosam, cumque ipsam
-                doloribus asperiores, placeat consectetur commodi eum odit?
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus illum magnam iure neque veniam voluptatibus dicta
-                consequuntur blanditiis eveniet dolore, maiores ad harum dolorem
-                aperiam molestiae id eos? Vel, provident.
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
               </p>
+              <a href="#" class="action-btn badge badge-pill">learn more</a>
             </div>
           </div>
         </section>
@@ -143,7 +107,7 @@
             <div class="col-md-6 p-md-5 order-md-2">
               <img
                 class="img-fluid"
-                src="https://picsum.photos/g/560?image=1079"
+                src="https://picsum.photos/g/560?image=1069"
                 alt=""
               />
             </div>
@@ -151,20 +115,20 @@
               class="col-md-6 p-md-5 order-md-1:w
 						"
             >
-              <h2>creative <span class="d-block h1-sm">kitchen</span></h2>
-              <div style="width: 55px; border-bottom: 2px solid #000;"></div>
+            <h2 class="mb-3" style="font-weight: 400">
+                art
+                <span class="d-block h1-sm" style="font-weight: 700; font-size: 48px; ">
+                  installation
+                </span>
+              </h2>
+              <div class="mb-3" style="width: 55px; border-bottom: 2px solid #000;"></div>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem molestiae eum ut in tempore earum, eligendi
-                delectus? Voluptas eaque necessitatibus laboriosam, cumque ipsam
-                doloribus asperiores, placeat consectetur commodi eum odit?
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus illum magnam iure neque veniam voluptatibus dicta
-                consequuntur blanditiis eveniet dolore, maiores ad harum dolorem
-                aperiam molestiae id eos? Vel, provident.
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
               </p>
+              <a href="#" class="action-btn badge badge-pill">learn more</a>
             </div>
           </div>
         </section>
@@ -174,7 +138,7 @@
             <div class="col-md-6 p-md-5">
               <img
                 class="img-fluid"
-                src="https://picsum.photos/g/560?image=1079"
+                src="https://picsum.photos/g/560?image=420"
                 alt=""
               />
             </div>
@@ -182,8 +146,13 @@
               class="col-md-6 p-md-5 order-md-1:w
 						"
             >
-              <h2>creative <span class="d-block h1-sm">kitchen</span></h2>
-              <div style="width: 55px; border-bottom: 2px solid #000;"></div>
+            <h2 class="mb-3" style="font-weight: 400">
+                print
+                <span class="d-block h1-sm" style="font-weight: 700; font-size: 48px; ">
+                  design
+                </span>
+              </h2>
+              <div class="mb-3" style="width: 55px; border-bottom: 2px solid #000;"></div>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Exercitationem molestiae eum ut in tempore earum, eligendi
