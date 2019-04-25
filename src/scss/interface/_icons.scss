@@ -1,0 +1,43 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: .2s;
+
+  i {
+    font-size: 1.5rem;
+  }
+
+  &:hover {
+    transition: .2s;
+  }
+}
+
+.light-icon {
+  @extend .social-icon;
+  background: white;
+  color: black;
+
+  &:hover {
+    background: #ffe1bd;
+  }
+}
+
+.dark-icon {
+  @extend .social-icon;
+  background: black;
+  color: white;
+
+  &:hover {
+    background: #ffe1bd;
+  }
+}

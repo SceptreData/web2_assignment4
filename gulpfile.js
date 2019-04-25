@@ -6,6 +6,10 @@ gulp.task("sass", function() {
   return gulp
     .src("src/scss/**/*.scss")
     .pipe(sass())
+    .on("error", err => {
+      browserSync.notify(err.message, 4000);
+      this.emit("end");
+    })
     .pipe(gulp.dest("src/css"))
     .pipe(browserSync.stream());
 });

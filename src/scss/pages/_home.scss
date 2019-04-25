@@ -1,6 +1,96 @@
 .home-page {
   p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 200;
+
+    @media screen and (min-width: $screen-lg) {
+      font-size: 18px;
+    }
+  }
+
+  .service-img {
+    height: 100%;
+    align-self: center;
+    margin-bottom: 5rem;
+  }
+}
+
+.contact-form {
+  background: black;
+  color: white;
+
+  .contact-icon {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 4px;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .fa-envelope {
+    font-size: 14px;
+    margin-left: 3px;
+  }
+
+
+  input,
+  textarea,
+  label {
+    display: block;
+    color: rgb(236, 230, 230);
+    background: black;
+    border: 0;
+    border-bottom: 1px solid #333333;
+    resize: none;
+    width: 100%;
+    margin-bottom: 45px;
+  }
+
+  input {
+    padding-left: 0;
+    padding-bottom: .5rem;
+  }
+
+  textarea {
+    height: 75px;
+    border-top: 1px solid #333333;
+  }
+
+  label {
+    border: 0;
+    margin-bottom: .5rem;
+    padding-bottom: 0;
+
+  }
+}
+
+.submit-success {
+  font-size: 30px;
+
+  .success-check {
+    font-size: 3rem;
+    margin-left: 2.5rem;
+  }
+}
+
+.copyright {
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+  }
+
+  p {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0;
   }
 }

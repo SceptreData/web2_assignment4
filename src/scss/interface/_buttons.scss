@@ -1,0 +1,81 @@
+.get-in-touch-btn {
+  background: black;
+  padding: 1rem 2rem;
+  font-weight: 300;
+  border: 1px solid #ffe1bd;
+
+  &:hover {
+    border: 1px solid #f7c28a;
+    background: #ffcb93;
+    color: black;
+  }
+}
+
+.get-started-btn {
+  background: white;
+  color: black;
+  padding: 1rem 2rem;
+  font-weight: 300;
+
+  &:hover {
+    background: #ffcb93;
+    color: black;
+  }
+}
+
+.form-btn {
+  @extend .get-started-btn;
+  border-radius: 40px;
+  padding: 1rem 4rem;
+  box-shadow: 0;
+  border: 0;
+}
+
+.action-btn {
+  border: 1px solid $border-grey;
+  font-weight: 300;
+  font-size: 1.125rem;
+  padding: 1rem 2rem;
+  color: black;
+
+  &:hover {
+    color: black;
+    border: 1px solid black;
+  }
+}
+
+.circle {
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.dot {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.dot-stroke {
+  border: 1px solid white;
+}
+
+.dot-fill {
+  background: #000;
+}
+
+.dot-stroke-black {
+  border: 1px solid black;
+}
+
+.slide-arrow {
+  transition: .2s ease;
+  font-size: 5rem;
+
+  &:hover {
+    color: #faa64d;
+    transition: .2s ease;
+  }
+}
