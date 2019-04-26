@@ -8081,6 +8081,16 @@ h1, h2, h3, h4, h5, h6 {
     background: #ffcb93;
     color: black; }
 
+.contact-btn {
+  background: white;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  padding: .5rem 1.5rem; }
+  .contact-btn:hover {
+    color: black;
+    background: #ffcb93; }
+
 .form-btn {
   border-radius: 40px;
   padding: 1rem 4rem;
@@ -8329,6 +8339,30 @@ h1, h2, h3, h4, h5, h6 {
 .about-git {
   margin: 0 auto 5rem auto;
   max-width: 200px; }
+
+.price-info {
+  display: flex;
+  align-items: center;
+  color: white; }
+  .price-info svg {
+    width: 60px; }
+  .price-info h3 {
+    font-size: 30px;
+    font-weight: 400; }
+  .price-info .price-amt {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700; }
+    @media screen and (max-width: 992px) {
+      .price-info .price-amt {
+        font-size: 18px; } }
+    .price-info .price-amt span {
+      color: #8e8e8e;
+      font-size: 30px;
+      font-weight: 300; }
+      @media screen and (max-width: 992px) {
+        .price-info .price-amt span {
+          font-size: 16px; } }
 
 .works-nav .nav-link {
   font-size: 18px; }

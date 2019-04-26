@@ -23,6 +23,19 @@
   }
 }
 
+.contact-btn {
+  background: white;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  padding: .5rem 1.5rem;
+
+  &:hover {
+    color: black;
+    background: #ffcb93;
+  }
+}
+
 .form-btn {
   @extend .get-started-btn;
   border-radius: 40px;
