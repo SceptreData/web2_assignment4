@@ -8055,6 +8055,10 @@ h1, h2, h3, h4, h5, h6 {
 .small-3 {
   font-size: calc(10px / 1rem); }
 
+.flex-img {
+  height: 100%;
+  align-self: center; }
+
 .hidden {
   display: none; }
 
@@ -8152,7 +8156,6 @@ h1, h2, h3, h4, h5, h6 {
     background: #ffe1bd; }
 
 .nav-item .active-marker {
-  display: hidden;
   width: 40px;
   border-bottom: 2px solid black;
   margin-left: 8px; }
@@ -8166,6 +8169,13 @@ h1, h2, h3, h4, h5, h6 {
   .service-link:hover {
     transition: .2s;
     color: #ffcb93;
+    text-decoration: none; }
+
+.works-link {
+  color: white;
+  font-size: 18px; }
+  .works-link:hover {
+    color: white;
     text-decoration: none; }
 
 .award-card {
@@ -8194,6 +8204,10 @@ h1, h2, h3, h4, h5, h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  .small-tile a,
+  .small-tile a:hover {
+    color: black;
+    text-decoration: none; }
   .small-tile img {
     transition: .5s ease; }
   .small-tile:hover img {
@@ -8203,6 +8217,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .tall-tile {
   position: relative; }
+  .tall-tile a,
+  .tall-tile a:hover {
+    color: black;
+    text-decoration: none; }
   .tall-tile .award-card {
     width: 80%;
     height: auto;
@@ -8283,3 +8301,48 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 200;
   margin-bottom: 0; }
+
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: .5s ease;
+  text-align: center; }
+  .stats-card h4 {
+    font-weight: 700; }
+  .stats-card p {
+    font-weight: 300;
+    font-size: 18px; }
+    @media screen and (max-width: 768px) {
+      .stats-card p {
+        font-size: 14px; } }
+
+.instagram-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .instagram-layout img {
+    margin-right: 10px; }
+  .instagram-layout img:last-of-type {
+    margin-right: 0; }
+
+.about-git {
+  margin: 0 auto 5rem auto;
+  max-width: 200px; }
+
+.works-nav .nav-link {
+  font-size: 18px; }
+
+.blog-page h3 {
+  margin-bottom: 20px !important; }
+
+.blog-page p {
+  font-size: 18px;
+  font-weight: 300; }
+
+.blog-page .article-date {
+  font-weight: 400;
+  margin-bottom: 30px !important; }
+
+.blog-page .blog-separator {
+  margin-bottom: 30px !important; }

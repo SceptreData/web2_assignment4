@@ -2,7 +2,6 @@
 
   // <div class="active-marker"></div>
   .active-marker {
-    display: hidden;
     width: 40px;
     border-bottom: 2px solid black;
     margin-left: 8px;
@@ -22,6 +21,16 @@
   &:hover {
     transition: .2s;
     color: #ffcb93;
+    text-decoration: none;
+  }
+}
+
+.works-link {
+  color: white;
+  font-size: 18px;
+
+  &:hover {
+    color: white;
     text-decoration: none;
   }
 }
