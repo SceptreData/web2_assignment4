@@ -1,0 +1,31 @@
+.blog-post {
+  .date {
+    font-weight: 400;
+  }
+
+  h3 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  aside p {
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 530px;
+  }
+}
+
+.related-post {
+  a {
+    color: black;
+
+    &:hover {
+      color: #e48e32;
+      text-decoration: none;
+    }
+  }
+}

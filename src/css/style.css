@@ -8122,6 +8122,9 @@ h1, h2, h3, h4, h5, h6 {
 .dot-stroke {
   border: 1px solid white; }
 
+.dot-stroke-black {
+  border: 1px solid black; }
+
 .dot-fill {
   background: #000; }
 
@@ -8367,6 +8370,27 @@ h1, h2, h3, h4, h5, h6 {
 .works-nav .nav-link {
   font-size: 18px; }
 
+.work-page p {
+  font-weight: 300; }
+
+.award-nav ul {
+  list-style: none; }
+
+.award-nav a {
+  color: #b3b3b3; }
+  .award-nav a:hover {
+    text-decoration: none;
+    color: black; }
+
+.current-image {
+  color: #656565; }
+
+.related-work a {
+  color: black; }
+  .related-work a:hover {
+    color: #e48e32;
+    text-decoration: none; }
+
 .blog-page h3 {
   margin-bottom: 20px !important; }
 
@@ -8380,3 +8404,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-page .blog-separator {
   margin-bottom: 30px !important; }
+
+.blog-post .date {
+  font-weight: 400; }
+
+.blog-post h3 {
+  font-weight: 100;
+  font-size: 3rem; }
+
+.blog-post p {
+  font-weight: 300; }
+
+.blog-post aside p {
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 530px; }
+
+.related-post a {
+  color: black; }
+  .related-post a:hover {
+    color: #e48e32;
+    text-decoration: none; }
