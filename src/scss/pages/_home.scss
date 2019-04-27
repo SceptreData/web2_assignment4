@@ -38,6 +38,12 @@
     margin-left: 3px;
   }
 
+  input[type=text]:focus,
+  input[type=email]:focus,
+  input[type=textarea]:focus,
+  input[type=button]:focus {
+    outline: 0;
+  }
 
   input,
   textarea,
